@@ -23,6 +23,12 @@
     <style>
       body {
         font-family: "Outfit", sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      main {
         background-color: "#D5E1EF";
         display: flex;
         align-items: center;
@@ -83,21 +89,23 @@
     </style>
   </head>
   <body>
-    <div class="qr-container">
-      <img
-        src="./images/image-qr-code.png"
-        class="qr-image"
-        alt="sample qr code"
-      />
-      <div class="qr-text-box">
-        <span class="title"
-          >Improve your front-end skills by building projects</span
-        >
-        <span class="subtitle"
-          >Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level</span
-        >
+    <main>
+      <div class="qr-container">
+        <img
+          src="./images/image-qr-code.png"
+          class="qr-image"
+          alt="sample qr code"
+        />
+        <div class="qr-text-box">
+          <span class="title"
+            >Improve your front-end skills by building projects</span
+          >
+          <span class="subtitle"
+            >Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level</span
+          >
+        </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
